@@ -23,10 +23,11 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   var adore = [];
-
+  var counter = 0;
   do {
 
-    adore[num-num+1] = "I love the Beatles!";
+    adore[counter] = "I love the Beatles!";
+    counter++;
     num++;
 
   } while (num < 15);
