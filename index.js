@@ -25,9 +25,9 @@ function iLoveTheBeatles(num){
   var adore = [];
 
   do {
-    num++;
-    adore[num] = "I love the Beatles!";
 
+    adore[num] = "I love the Beatles!";
+    num++;
 
   } while (num < 15);
 
