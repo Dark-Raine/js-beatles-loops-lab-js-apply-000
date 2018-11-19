@@ -20,3 +20,15 @@ function johnLennonFacts(facts){
   }
   return exc;
 }
+
+function iLoveTheBeatles(num){
+  var adore = [];
+
+  do {
+    adore[num] = "I love the Beatles!";
+    num++;
+
+  } while (num < 15);
+
+  return adore;
+}
