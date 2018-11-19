@@ -7,5 +7,5 @@ function theBeatlesPlay(musician, instrument){
     pairs[i] = musicians[i] + "plays" + instruments[i];
 
   }
-  return pairs[i];
+  return pairs;
 }
