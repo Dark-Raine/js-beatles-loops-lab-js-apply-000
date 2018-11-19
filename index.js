@@ -22,11 +22,11 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(num){
-  var adore = [ ];
+  var adore = [];
 
   do {
 
-    adore[num] = "I love the Beatles!";
+    adore[num-num+1] = "I love the Beatles!";
     num++;
 
   } while (num < 15);
