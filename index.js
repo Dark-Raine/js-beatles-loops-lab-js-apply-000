@@ -29,7 +29,7 @@ function iLoveTheBeatles(num){
     adore[num] = "I love the Beatles!";
     num++;
 
-  } while (num < 16);
+  } while (num < 15);
 
   return adore;
 }
